@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Moedas by developer PedrinSX777</h1>
+        <div class="conversor-box">
+            <select name="Moedas" id="inCashType">
+                <option value="BRL">BRL</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            <input type="number" name="inputType" id="inputType" placeholder="Coloque o valor aqui!">
+        </div>
+        <div class="conversor-box">
+            <select name="Moedas" id="outCashType">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="BRL">BRL</option>
+            </select>
+            <input type="number" name="outputType" id="outputType" placeholder="Valor Convertido aqui!" readonly>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/htmlFunction.js" defer></script>
+</body>
+</html>
